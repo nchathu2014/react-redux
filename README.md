@@ -1,4 +1,4 @@
-# React Redux Architecture
+# Counter Application with ReactJS (Redux Architecture)
   Simple Application to understand the Redux Architcture with ReactJS
   
 # Run

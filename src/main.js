@@ -16,5 +16,5 @@ function render() {
   )
 }
 
-render()
-store.subscribe(render)
+render();
+store.subscribe(render);

@@ -19,3 +19,6 @@ http://localhost:7000
 
 **Principle 3 :**
 -Third and the last principle of Redux. To describe state mutations, you have to write a function that takes the previous state of the app, the action being dispatched, and returns the next state of the app. This function has to be pure. This function is called the "Reducer."
+
+-reducer function must be a pure function.
+-We can create a impure functions(database calls across network access) as a middleware and wrap with reducers
